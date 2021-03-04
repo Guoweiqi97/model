@@ -1,5 +1,5 @@
 # model
-本模型采用改进的SEIR病毒传染模型，
+本模型采用改进的SEIR病毒传染模型，想法来源：https://zhuanlan.zhihu.com/p/104268573?night=1
 模型大致流程：![image](https://user-images.githubusercontent.com/38526596/109908297-fd593d00-7cde-11eb-9475-c56450addf36.png)
 通过建立微分方程组，通过matlab求解微分方程组的数值解!
 微分方程组如下：
@@ -14,6 +14,6 @@
 ![r1=r2=5](https://user-images.githubusercontent.com/38526596/109908587-83758380-7cdf-11eb-8163-40a3ef4b6fd3.jpg)
 ![b=0 01](https://user-images.githubusercontent.com/38526596/109908595-87a1a100-7cdf-11eb-9a90-0a160ac7b4cd.jpg)
 ![b=0 003](https://user-images.githubusercontent.com/38526596/109908603-8b352800-7cdf-11eb-85cd-381337451b7e.jpg)
-从中可以看出减少接触人数对疫情防控起到至关重要的作用，而佩戴口罩可以降低感染率，对于疫情防控也非常的关键。
+从中可以看出减少接触人数对疫情防控起到至关重要的作用，而佩戴口罩可以降低感染率，对于疫情防控也非常的关键。该模型未考虑的死亡率，个人认为可以再设置一个变量来表示死亡率，感染的病人一方面会康复也会有可能死亡，从而建立出更加合理的模型。
 
 
